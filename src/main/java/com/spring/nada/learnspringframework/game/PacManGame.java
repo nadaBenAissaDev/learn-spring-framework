@@ -1,6 +1,6 @@
 package com.spring.nada.learnspringframework.game;
 
-public class PacManGame {
+public class PacManGame implements GamingConsole{
 	public void up() {
 		System.out.println("Up");
 	}

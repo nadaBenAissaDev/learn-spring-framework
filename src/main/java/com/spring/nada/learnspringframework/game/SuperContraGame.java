@@ -1,6 +1,6 @@
 package com.spring.nada.learnspringframework.game;
 
-public class SuperContraGame {
+public class SuperContraGame implements GamingConsole{
 	public SuperContraGame() {
 		//default constructor
 	}

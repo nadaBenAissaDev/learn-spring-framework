@@ -1,6 +1,6 @@
 package com.spring.nada.learnspringframework.game;
 
-public class MarioGame {
+public class MarioGame implements GamingConsole{
 	public MarioGame() {
 		//default constructor
 	}
