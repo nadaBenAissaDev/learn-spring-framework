@@ -1,10 +1,16 @@
 package com.spring.nada.learnspringframework;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
+import com.spring.nada.learnspringframework.game.GamingConsole;
+
 public class AppGamingSpringBeans {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		try (var context = new AnnotationConfigApplicationContext(GamingConfiguration.class)){
+			context.getBean(GamingConsole.class).up();
+			
+			}
 
-	}
-
+}
 }
